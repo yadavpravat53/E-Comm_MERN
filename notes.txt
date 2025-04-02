@@ -1,0 +1,11 @@
+1. npm init
+   npm i express
+   npm i mongoose
+   npm i nodemon
+2. Create a basic server and run it
+3. npx create-react-app front-end
+   cd front-end
+   npm start
+4. npm i react-router-dom 
+   in frontend
+5. connect database to the backend
