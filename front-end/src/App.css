@@ -1,15 +1,15 @@
-.nav-ul li{
+.nav-ul li {
   display: inline-block;
   padding: 10px;
 }
 
-.nav-ul a{
-color: white;
-padding: 5px;
-text-decoration: none;
+.nav-ul a {
+  color: white;
+  padding: 5px;
+  text-decoration: none;
 }
 
-.footer{
+.footer {
   position: absolute;
   bottom: 0;
   text-align: center;
@@ -19,7 +19,7 @@ text-decoration: none;
   margin: 0;
 }
 
-.nav-ul{
+.nav-ul {
   padding: 0px;
   margin: 0;
   background-color: skyblue;
@@ -27,29 +27,53 @@ text-decoration: none;
   font-size: 24px;
 }
 
-.signup-form,.login-form{
+.signup-form,
+.login-form,
+.product-form {
   margin-left: 36%;
 }
 
 
-.signup-form button,.login-form button{
+.signup-form button,
+.login-form button,
+.product-form button {
   display: block;
   margin: 10px;
-  padding:7px;
-  width:100px;
+  padding: 7px;
+  width: 100px;
   background-color: skyblue;
   border: 1px solid blue;
   cursor: pointer;
   border-radius: 6px;
 }
 
-.signup-form input,.login-form input{
+.signup-form input,
+.login-form input,
+.product-form input {
   display: block;
   margin: 10px;
-  padding:7px;
+  padding: 7px;
   width: 300px;
   border: 1px solid skyblue;
 }
+
+h1,h3{
+  color:darkblue;
+}
+
+.nav-right {
+  text-align: right;
+}
+
+.logo {
+  width: 55px;
+  float: left;
+  border-radius: 50%;
+  margin-top: 3px;
+  margin-left: 20px;
+}
+
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -76,6 +100,7 @@ text-decoration: none;
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
